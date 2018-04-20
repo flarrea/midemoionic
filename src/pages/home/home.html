@@ -1,14 +1,19 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color="primary">
     <ion-title>
-      Demo Ionic
+      Lista de Cajeros Automáticos
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  Demoionic v2.
-  <p>
-    Prueba de Ionic en blanco.
-  </p>
+  <ion-searchbar placeholder="Buscar" [(ngModel)]="terms"></ion-searchbar>
+  <button ion-button type="button" (click)="sort()">Ordenar</button>
+  <ion-list>
+    <ion-item *ngFor="let c of cajeros | search : terms | sort: {property: column, order: order}">
+      <h2>{{c.direccion}}</h2>
+      <p>Local: {{c.tipo_de_local}}</p>
+      <p>Latitud: {{c.lat}}, Longitud: {{c.lon}}</p>
+    </ion-item>
+  </ion-list>
 </ion-content>
