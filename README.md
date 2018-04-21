@@ -13,6 +13,21 @@ La presente demostración es parte de una aplicación que localiza los cajeros a
 
 5. La gestión de la aplicación se está realizando con Github y MS VSTS.
 
+Demo aplicacón desde navegador.
+![aplicacionionicenazure](https://user-images.githubusercontent.com/5190215/39084973-454b9e80-4553-11e8-8149-6a38500b9e64.png)
 
+JSON desde FIREBASE.
+![esructuradedatosenfirebase](https://user-images.githubusercontent.com/5190215/39084983-5955baf0-4553-11e8-98e0-8ec64788e605.png)
+
+JSON desde navegador.
+![archivo_json](https://user-images.githubusercontent.com/5190215/39084985-6257ee3e-4553-11e8-92bb-91b31788a9fe.png)
+
+![jsondesdefirefox](https://user-images.githubusercontent.com/5190215/39084989-7624dbfc-4553-11e8-9c4d-9e2d7848e447.png)
+
+Reglas de acceso.
+![reglasdeaccesoalosdatosenfirebase](https://user-images.githubusercontent.com/5190215/39084995-7ef1ddca-4553-11e8-9b55-8e8a249ff548.png)
+
+Gestión de la app des VSTS.
+![gestiondelaappdesdevsts](https://user-images.githubusercontent.com/5190215/39085015-8fdc9d1e-4553-11e8-9ec2-328732e4c998.png)
 
 
