@@ -5,9 +5,7 @@ La presente demostración es parte de una aplicación que localiza los cajeros a
 
 1. La app está desarrollada con Ionic 3, y aunque la aplicación es para Android e iOS, esta demostración se abilitó para la plataforma web.
 
-2. Consume un JSON con las direcciones, nombres, locales, latitudes, longitudes, etc., de cajeros automáticos del país. El arhivo es parte
-
-de una fuente mayor, pero este fue adaptado para la demostración. Por tanto, no incluye todos los campos ni todos los registros.
+2. Consume un JSON con las direcciones, nombres, locales, latitudes, longitudes, etc., de cajeros automáticos del país. El arhivo es parte de una fuente mayor, pero este fue adaptado para la demostración. Por tanto, no incluye todos los campos ni todos los registros.
 
 3. Los datos están en una RTDB proporciada por Firebase, servicio que nos permite tener los datos en formato JSON y el acceso a sólo lectura.
 
